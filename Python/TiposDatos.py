@@ -10,3 +10,5 @@ print("Entero = " , entero)
 print("Cadena = ", cadena)
 print("flotante =" , flotante)
 print("Booleano =", booleano)
+
+# La especificacion de C es demaciado concreta, mientras que la de <python es algo informal.
