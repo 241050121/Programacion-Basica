@@ -10,4 +10,4 @@ else:
 if numero >= 120 :
     print("Puedes hacer recidencia profecional.")
 else:
-    print("No puedes hacer recidencia profecional.") 
+    print("No puedes hacer recidencia profecional.")
