@@ -2,11 +2,25 @@
 ## Jose Enrique Lara Martinez
 ### Unidad 2
 1. ¿Que es un lenguaje de programacion?
+Los tipos de software se pueden clasificar en tres grandes grupos según sus intenciones:
+Sistema: conjunto de componentes que trabajan juntos para realizar una tarea.
+Aplicación: software diseñado para realizar una tarea.
+Desarrollo: proceso de crear, diseñar y implementar.
+
 2. ¿Que tipo de clasificaciones de software hay?
+El algoritmo es la secuencia de instrucciones mediante la cual podemos resolver un problema o cuestión.
+
 3. ¿Que es un algoritmo?
+Lenguaje informático que se utiliza para crear otros programas siguiendo un lenguaje formal y una sintaxis específica. Es un lenguaje humano que se traduce a un lenguaje máquina.
+
 4. ¿Que es un paradigma de programacion?
+Es una representación visual de los pasos o procesos que un programa o algoritmo seguirá para realizar una tarea específica. Este diagrama utiliza símbolos estándar conectados por flechas para ilustrar el flujo del programa de manera secuencial y clara.
+
 5. ¿Cual es la diferencia entre un lenguaje de programacion copilado e interpretado? 
+La principal diferencia entre un compilador y un intérprete radica en cómo procesan y ejecutan el código. Un compilador convierte todo el código fuente en un programa ejecutable independiente, mientras que un intérprete procesa y ejecuta el código línea por línea en tiempo real.
+
 6. ¿Que es un lenguaje de alto nivel y bajo nivel?
+Los lenguajes de programación se dividen en dos tipos: alto nivel y bajo nivel. Los lenguajes de bajo nivel son los que están más cerca de la computadora, mientras que los de alto nivel están más lejos. Los lenguajes de alto nivel son más fáciles de leer y escribir para los humanos, mientras que los lenguajes de bajo nivel se dirigen más directamente a la computadora.
 
 **Operadores**
 1. If
