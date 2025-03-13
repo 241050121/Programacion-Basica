@@ -14,9 +14,9 @@ materias = ["Programacion basica","Calculo integral","Administracion de empresas
 profesores = ["Flores","La risitas","La gallos","Finish class","El presumido","El ASMR", "Abuelo de Manuel"]
 
 # Imprimir listas 
-materias.remove("Programacion basica")
+materias.remove("Calculo integral")
 print(materias)
-materias.append("Programacion Avanzada")
+materias.insert(1,"Programacion Avanzada")
 print(materias)
-materias.append([1] "Programacion Basica")
-print(materias)
+for materia in materias:
+    print(materia) 
