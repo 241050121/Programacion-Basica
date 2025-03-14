@@ -31,9 +31,9 @@ nombre_profesor = "Flores"
 if nombre_profesor in profesores:
     detalles = profesores[nombre_profesor]
     print(f"\nDetalles de {nombre_profesor}:")
-    print(f"Carrera: {detalles['Materia']}")
+    print(f"Materia: {detalles['Materia']}")
     print(f"Promedio: {detalles['Promedio']}")
-    
+
 
 # Acceder a un valor usando una clave
 print("Edad de Juan:", alumnos["Juan"])
