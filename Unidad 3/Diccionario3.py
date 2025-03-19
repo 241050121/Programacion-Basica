@@ -34,10 +34,8 @@ if nombre_profesor in profesores:
     print(f"Materia: {detalles['Materia']}")
     print(f"Promedio: {detalles['Promedio']}")
 
-
 # Acceder a un valor usando una clave
 print("Edad de Juan:", alumnos["Juan"])
-
 
 # Iterar sobre un diccionario
 print("Iterar sobre el diccionario:")
