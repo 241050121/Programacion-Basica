@@ -2,7 +2,7 @@ import math
 import random
 import csv
 
-def guardar_meseros_en_csv(nombre_archivo, lista_diccionarios):
+def guardar_meseros_en_csv(nombre_archivo, meseros):
     """Guarda una lista de diccionarios de meseros en un archivo CSV."""
     if not meseros:
         print("La lista de meseros está vacía.")
