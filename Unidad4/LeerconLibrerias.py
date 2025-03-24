@@ -1,4 +1,4 @@
-from Archivos import leer_diccionarios_de_csv
+from Archivos import guardar_diccionarios_en_csv, leer_diccionarios_de_csv
 
 # Nombre del archivo a leer y de la función a importar
 archivo = "datos.csv"
@@ -12,6 +12,11 @@ datos = [
 #Diccionarios a guardar
 
 # Guardar los diccionarios en un archivo csv
-leer_diccionarios_de_csv(archivo, datos) 
+guardar_diccionarios_en_csv(archivo, datos) 
 
 # Actividad hacer un programa llamado LeerconLibreria.py que importe la función leer_diccionarios_de_csv y lea el archivo datos.csv 
+leer_diccionarios_de_csv(archivo)
+datos_leidos = leer_diccionarios_de_csv(archivo)
+print("Datos leídos del archivo CSV:")
+print(datos_leidos)
+
