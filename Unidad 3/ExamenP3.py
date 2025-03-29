@@ -1,12 +1,12 @@
 import math
 import random
 
+from Archivos import guardar_diccionarios_en_csv, leer_diccionarios_de_csv
 
-meseros = {
-        "Jose": {"Edad": "18", "Rol": "Capitan", "Promedio": 10.0},
-        "Juan": {"Edad": "19", "Rol": "Barra", "Promedio": 9.4},
-}
-
+meseros = [
+        {"Nombre":"Jose", "Edad": "18", "Rol": "Capitan", "Promedio": 10.0},
+        {"Nombre":"Juan","Edad": "19", "Rol": "Barra", "Promedio": 9.4},
+]
 meseros_disponibles = {
         "Oswaldo": {"Edad": "24", "Rol": "Charolero", "Promedio": 80.0},
         "Roberto": {"Edad": "17", "Rol": "Charolero", "Promedio": 9.5},
@@ -14,8 +14,6 @@ meseros_disponibles = {
         "Ernesto": {"Edad": "27", "Rol": "Capitan", "Promedio": 10.0},
         "Jesus": {"Edad": "30", "Rol": "Cocina", "Promedio": 8.1},
 }
-
-
 
 while True:
     print(" MENÚ ")
@@ -76,20 +74,18 @@ while True:
     else:
         print("❌ Opción inválida. Intenta de nuevo.")
 
-from Archivos import guardar_diccionarios_en_csv, leer_diccionarios_de_csv
-
 datos = [
     {"Nombre": "Juan", "Edad": 25, "Ciudad": "Madrid"},
     {"Nombre": "Ana", "Edad": 30, "Ciudad": "Barcelona"},
     {"Nombre": "Luis", "Edad": 35, "Ciudad": "Valencia"}
 ] 
 
-archivo = "datos.csv"
+archivo = "ExamenP3.csv"
 
-guardar_diccionarios_en_csv(archivo, datos) 
+guardar_diccionarios_en_csv(archivo, meseros) 
 
 # Actividad hacer un programa llamado LeerconLibreria.py que importe la función leer_diccionarios_de_csv y lea el archivo datos.csv 
-leer_diccionarios_de_csv(meseros)
-datos_leidos = leer_diccionarios_de_csv(meseros)
+leer_diccionarios_de_csv(archivo)
+datos_leidos = leer_diccionarios_de_csv(archivo)
 print("Datos leídos del archivo CSV:")
 print(datos_leidos)

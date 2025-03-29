@@ -19,4 +19,3 @@ leer_diccionarios_de_csv(archivo)
 datos_leidos = leer_diccionarios_de_csv(archivo)
 print("Datos leídos del archivo CSV:")
 print(datos_leidos)
-
