@@ -40,7 +40,7 @@ SubProceso ConfortHumano
 	Si numeroDePersonas > 0 Entonces
 		Escribir "Confort humano activado"
 	Sino
-		Escribir "No hay personas en la habitación"
+		Escribir "No hay personas en la habitacion"
 	FinSi
 
 FinAlgoritmo 
