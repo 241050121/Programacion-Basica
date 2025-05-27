@@ -1,1 +1,2 @@
-""¿Que significan los directorios creados?"" 
+**¿Que significan los directorios creados?**
+1.- Que los directorios creados no se pueden abrir o leer por que estan en codigo de maquina o lenguaje de computadora. Esto nos beneficia a la hora de compartir un codigo pues el destinatario no tendra que descargar ni hacer algunas cosas que si realizo el remitente, pues nos ayuda a ahorrar tiempo y recursos. 
